@@ -1,0 +1,88 @@
+{
+  "spid-texts": {
+  
+    "version": "1.0",
+    "default": "it"
+
+  },
+  
+  "language": {
+    
+    "it": {
+      
+      "spid_sigla"                          : "SPID",
+      "spid_esteso"                         : "Sistema Pubblico di Identità Digitale",
+      "spid_descrizione"                    : ["SPID è il sistema di accesso che consente di utilizzare, con un'identità digitale unica, i servizi online della Pubblica Amministrazione e dei privati accreditati.", "Se sei già in possesso di un'identità digitale, accedi con le credenziali del tuo gestore.", "Se non hai ancora un'identità digitale, richiedila ad uno dei gestori."],
+
+      "lnk_home"                            : "http://www.spid.gov.it/",
+      "lnk_cosa_cambia"                     : "http://www.spid.gov.it/#cosa-cambia",
+      "lnk_le_credenziali"                  : "http://www.spid.gov.it/#le-credenziali",
+      "lnk_ottieni_spid"                    : "http://www.spid.gov.it/#ottieni-spid",
+      "lnk_i_servizi"                       : "http://www.spid.gov.it/#i-servizi",
+
+      "str_livello_1_estesa"                : "Autenticazione SPID di livello 1",
+      "str_livello_2_estesa"                : "Autenticazione SPID di livello 2",
+      "str_livello_3_estesa"                : "Autenticazione SPID di livello 3",
+      "str_livello_1_ridotta"               : "SPID livello 1",
+      "str_livello_2_ridotta"               : "SPID livello 2",
+      "str_livello_3_ridotta"               : "SPID livello 3",
+      "dsc_livello_1"                       : "Il servizio richiede l'accesso con autenticazione SPID di livello 1. Sono richiesti nome utente, password e autorizzazione al trattamento dei dati personali necessari all'erogazione del servizio.",
+      "dsc_livello_2"                       : "Il servizio richiede l'accesso con autenticazione SPID di livello 2. Sono richiesti nome utente, password, codice di sicurezza e autorizzazione al trattamento dei dati personali necessari all'erogazione del servizio.",
+      "dsc_livello_3"                       : "Il servizio richiede l'accesso con autenticazione SPID di livello 3. Sono richiesti nome utente, password, dispositivo di accesso e autorizzazione al trattamento dei dati personali necessari all'erogazione del servizio.",
+
+      "str_username"                        : "Nome utente",
+      "str_password"                        : "Password",
+      "str_nome_utente_dimenticato"         : "Nome utente dimenticato ?",
+      "str_password_dimenticata"            : "Password dimenticata ?",
+      "str_credenziali_accesso_dimenticati" : "Credenziali di accesso dimenticate ?",
+      "str_mostra_password"                 : "Mostra password",
+      "str_annulla"                         : "Annulla",
+      "str_codice"                          : "Codice di sicurezza",
+      "str_codice_non_ricevuto"             : "Codice di sicurezza non ricevuto ?",
+      
+      "btn_prosegui"                        : "Prosegui",
+      "btn_entra_con_spid"                  : "Entra con SPID",
+      "btn_autorizza"                       : "Autorizza",
+      
+      "msg_livello_2"                       : "Per accedere al servizio è richiesta l'immissione del codice di sicurezza ricevuto.",
+      "msg_livello_3"                       : "Per accedere al servizio è necessario l'utilizzo del dispositivo fornito.",
+      "msg_livello_3"                       : "Per accedere al servizio richiesto è necessario autorizzare l'utilizzo dei seguenti dati personali:",
+      
+      "msg_errore_generico"                 : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi. Grazie !",
+      "msg_errore_L1"                       : "Digitare il nome utente e la password !",
+      "msg_errore_L2"                       : "Il nome utente digitato è errato !",
+      "msg_errore_L3"                       : "La password digitata è errata !",
+      "msg_errore_L4"                       : "Il nome utente e/o la password digitati sono errati !",
+      "msg_errore_L5"                       : "Inserire il codice dispositivo temporaneo per procedere !",
+      "msg_errore_L6"                       : "Il codice temporaneo digitato è errato !",
+      "msg_errore_L7"                       : "Il codice temporaneo digitato è scaduto !",
+      "msg_errore_L8"                       : "Il dispositivo di accesso di terzo livello non è stato rilevato !",
+      "msg_errore_2"                        : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 2). Grazie !",
+      "msg_errore_3"                        : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 3). Grazie !",
+      "msg_errore_4"                        : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 4). Grazie !",
+      "msg_errore_5"                        : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 5). Grazie !",
+      "msg_errore_6"                        : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 6). Grazie !",
+      "msg_errore_7"                        : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 7). Grazie !",
+      "msg_errore_10"                       : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 10). Grazie !",
+      "msg_errore_19"                       : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 19). Grazie !",
+          
+      "enc_identity_providers"              : [
+                                                {
+                                                  "idp_impresa"            : "Infocert", 
+                                                  "idp_nome_servizio_spid" : "Infocert ID"
+                                                },
+                                                {
+                                                  "idp_impresa"            : "Poste Italiane", 
+                                                  "idp_nome_servizio_spid" : "Poste ID"
+                                                },
+                                                {
+                                                  "idp_impresa"            : "Telecom", 
+                                                  "idp_nome_servizio_spid" : "TIM ID"
+                                                }
+                                              ]
+
+    }
+  
+  }
+
+}
