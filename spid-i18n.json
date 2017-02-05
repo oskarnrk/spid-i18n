@@ -1,7 +1,7 @@
 {
   "spid-texts": {
   
-    "version": "1.0",
+    "version": "1.2",
     "default": "it"
 
   },
@@ -68,6 +68,10 @@
       "msg_errore_19"                       : "Il servizio non è attualmente disponibile. Si prega di riprovare più tardi o contattare il fornitore del servizio (Codice errore: 19). Grazie !",
           
       "enc_identity_providers"              : [
+                                                {
+                                                  "idp_impresa"            : "Aruba", 
+                                                  "idp_nome_servizio_spid" : "Aruba ID"
+                                                },
                                                 {
                                                   "idp_impresa"            : "Infocert", 
                                                   "idp_nome_servizio_spid" : "Infocert ID"
