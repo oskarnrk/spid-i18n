@@ -19,7 +19,7 @@
       "lnk_dove_puoi_usare_spid"            : "http://www.spid.gov.it/servizi",
       "lnk_domande_frequenti"               : "http://www.spid.gov.it/domande-frequenti",
       "lnk_serve_aiuto"                     : "http://www.spid.gov.it/serve-aiuto",
-      "lnk_sei_una_pa_privato"              : "http://www.spid.gov.it/sei-una-pubblica-amministrazione"
+      "lnk_sei_una_pa_privato"              : "http://www.spid.gov.it/sei-una-pubblica-amministrazione",
 
       "str_livello_1_estesa"                : "Autenticazione SPID di livello 1",
       "str_livello_2_estesa"                : "Autenticazione SPID di livello 2",
